@@ -1,0 +1,60 @@
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, #4facfe, #00f2fe);
+  height: 100vh;
+  margin: 0;
+}
+
+/* Container utama */
+.container {
+  width: 320px;
+  margin: 120px auto;
+  padding: 25px;
+  background: white;
+  border-radius: 15px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+/* Judul */
+h2 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Input */
+input {
+  width: 100%;
+  padding: 12px;
+  margin-top: 10px;
+  border-radius: 10px; /* 🔥 bikin rounded */
+  border: 1px solid #ddd;
+  outline: none;
+  transition: 0.3s;
+}
+
+/* Efek saat klik input */
+input:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+/* Button */
+button {
+  width: 100%;
+  padding: 12px;
+  margin-top: 15px;
+  background: linear-gradient(135deg, #007bff, #00c6ff);
+  color: white;
+  border: none;
+  border-radius: 10px; /* 🔥 rounded */
+  cursor: pointer;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+/* Hover effect */
+button:hover {
+  opacity: 0.9;
+  transform: scale(1.03);
+}

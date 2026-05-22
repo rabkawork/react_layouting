@@ -1,8 +1,7 @@
 import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 import Login from "./Login";
 import Dashboard from "./Dashboard";
-import "./style.css";
-
+import 'bootstrap/dist/css/bootstrap.min.css';
 // Protect route
 function PrivateRoute({ children }) {
   const user = localStorage.getItem("user");
